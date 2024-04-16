@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/imagens/bg.png);
+    background-repeat:repeat;
+    background-attachment: fixed;
+    overflow: visible;
+}
+
+
+.logo {
+    width: 100%;
+    height: 95vh;
+    background-color: rgba(211, 195, 162, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.frase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inria Serif", serif;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0 5.8px 5.8px rgba(0, 0, 0, 0.25);
+}
+
+.nav {
+    width: 100%;
+    height: 5vh;
+    background-color: rgba(211, 195, 162, 0.6);
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+}
+
+.nav a {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+    text-underline-offset: 5px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.whatsBtn {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    position: sticky;
+    top: 5vh;
+}
+
+.whatsBtn a {
+    text-decoration: none;
+    color: #FFF;
+    filter: none;
+    transition: filter 0.5s;
+}
+
+.whatsBtn a:hover {
+    filter: brightness(110%);
+}
+
+.linkBloco {
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #29A71A;
+}
+
+.linkBloco img {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 5100px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.sobre_mim {
+    width: 100%;
+    padding-top: 110px;
+    display: flex;
+    align-items: end;
+}
+
+#sobre_mim {
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.sobre_mim_bloco {
+    width: 100%;
+    height: 790px;
+    display: flex;
+    justify-content: center;
+}
+
+.infos {
+    width: 1545px;
+    height: 100%;
+    display: flex;
+    background-color: #D4C3A2;
+}
+
+.foto {
+    width: 43%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img {
+    height: auto;
+    width: auto;
+}
+
+.texto {
+    width: 57%;
+    height: 100%;
+    padding: 50px 30px;
+}
+
+.publico_atendido {
+    width: 100%;
+    padding-top: 110px;
+    display: flex;
+    align-items: end;
+}
+
+#publico_atendido {
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.publico_atendido_bloco {
+    width: 100%;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #FCFDE4;
+    box-shadow: 0px 0px 20px #00000033;
+}
+
+.publico_atendido_bloco h1 {
+    text-align: center;
+    font-family: "Junge", cursive;
+    font-size: 55px;
+    font-weight: 300;
+    text-shadow: 0 4px 5px #00000066;
+}
+
+.publicos {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.publicos h2 {
+    text-align: center;
+    font-family: "Junge", cursive;;
+}
+
+.presencial {
+    width: 650px;
+    background-color: #F3E7CF;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 5px 10px #00000050;
+}
+
+.publicos p {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.online {
+    width: 650px;
+    background-color: #F3E7CF;
+    padding: 10px;
+    box-shadow: 0 5px 10px #00000050
+}
+
+.texto_atencao {
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 0 3px 5px #00000020;
+}
+
+.perguntas_frequentes {
+    width: 100%;
+    padding-top: 110px;
+    display: flex;
+    align-items: end;
+}
+
+#perguntas_frequentes {
+    width: 100%;
+    height: 200vh;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.perguntas_frequentes_bloco {
+    width: 100%;
+    height: 1730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #FCFDE4;
+    box-shadow: 0px 0px 20px #00000033;
+}
+
+.perguntas_frequentes_bloco h1 {
+    text-align: center;
+    font-family: "Junge", cursive;
+    font-size: 55px;
+    font-weight: 300;
+    text-shadow: 0 4px 5px #00000066;
+}
+
+.perguntas {
+    width: 1100px;
+    height: 860px;
+    margin-top: 50px;
+    background-color: blue;
+}
