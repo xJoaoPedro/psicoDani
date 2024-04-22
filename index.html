@@ -12,14 +12,13 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Junge&display=swap" rel="stylesheet">
 
-
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psicologa Dani Bêzi</title>
 </head>
 
-<body>
+<body class="container-fluid">
     <div class="logo">
         <img style="scale: 0.8;" src="/imagens/logo.png" alt="logo Psicologa Daniela Bêzi">
         <div class="frase">
@@ -58,34 +57,20 @@
                 <div class="sobre_mim_bloco">
                     <div style="box-shadow: 0 0 25px #00000033;" class="infos">
                         <div class="foto">
-                            <img src="/imagens/retrato2.png" alt="foto pessoal Daniela Bêzi">
+                            <img style="box-shadow: inset 0 0 40px #00000033;" src="/imagens/retrato2.png"
+                                alt="foto pessoal Daniela Bêzi">
                         </div>
                         <div class="texto">
                             <h1 style="font-size: 60px;">Quem sou eu?</h1>
-                            <p style="font-size: 23px;">
+                            <p>
                                 <br>
-                                Me chamo Daniela Bézi e sou psicóloga clínica graduada pela Universidade Luterana do
-                                Brasil (ULBRA). Minha trajetória acadêmica percorreu as áreas clínica, saúde/comunitária
-                                e educação.
+                                Me chamo Daniela Saraiva Cardoso Bézi, sou psicóloga clínica, graduada pela Universidade
+                                Luterana do Brasil (ULBRA). Minha trajetória acadêmica percorreu as áreas clínica,
+                                saúde/comunitária e educação.
                                 <br>
                                 <br>
                                 Atualmente me dedico exclusivamente à clínica, onde atendo pacientes infantis,
-                                adolescentes e adultos com as mais variadas demandas em saúde mental. Sou pós-graduanda
-                                em:
-                            </p>
-                            <br>
-                            <ul style="padding-left: 30px; font-size: 23px;">
-                                <li>Psicanálise Clínica;</li>
-                                <li>Neuropsicologia com Ênfase em Avaliações;</li>
-                                <li>Psicologia e Desenvolvimento Infantil.</li>
-                            </ul>
-                            <br>
-                            <br>
-                            <p style="font-size: 23px;">
-                                Meu objetivo e missão enquanto profissional é contribuir para que as pessoas tenham cada
-                                vez mais acesso e interesse sobre saúde mental, através de um ambiente seguro e
-                                confidencial para explorar suas emoções, enfrentar desafios e cultivar uma vida mais
-                                plena.
+                                adolescentes e adultos com as mais variadas demandas em saúde mental.
                                 <br>
                                 <br>
                                 Acredito que cada pessoa é única e merece ser tratada com respeito e compreensão.
@@ -151,11 +136,20 @@
 
         <div class="perguntas_frequentes">
             <div id="perguntas_frequentes">
-                <div class="perguntas_frequentes_bloco">
-                    <h1>PERGUNTAS FREQUENTES</h1>
-                    <div class="perguntas">
-                        
-                    </div>
+                <button type="button" class="collapsible">&triangledown;</button>
+
+                <div class="content-box">
+                    PRIMEIRO DELES pariatur, voluptates reprehenderit aliquam corrupti cupiditate quia fugit suscipit quod a ab, natus eligendi?
+                </div>
+                <button type="button" class="collapsible">&triangledown;</button>
+
+                <div class="content-box">
+                    SEGUNDO DELES, dolor sit amet consectetur adipisicing elit. Unde earum totam cumque doloremque culpa provident, obcaecati pariatur, voluptates reprehenderit aliquam corrupti cupiditate quia fugit suscipit quod a ab, natus eligendi?
+                </div>
+                <button type="button" class="collapsible">&triangledown;</button>
+
+                <div class="content-box">
+                    TERCEIRO DELES, dolor sit amet consectetur adipisicing elit. Unde earum totam cumque doloremque culpa provident, obcaecati pariatur, voluptates reprehenderit aliquam corrupti cupiditate quia fugit suscipit quod a ab, natus eligendi?
                 </div>
             </div>
         </div>
@@ -189,6 +183,7 @@
             });
         });
     </script>
+    <script src="collapse.js"></script>
 </body>
 
 </html>
