@@ -46,14 +46,17 @@ body {
     display: flex;
     align-items: center;
     font-size: 20px;
+    font-family: "Inria Serif", serif;
     font-weight: 600;
-    text-decoration: none;
-    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #00000000;
     text-underline-offset: 5px;
+    color: #000;
+    transition-duration: 0.5s;
 }
 
 .nav a:hover {
-    text-decoration: underline;
+    text-decoration-color: #000;
 }
 
 .whatsBtn {
@@ -70,11 +73,11 @@ body {
     text-decoration: none;
     color: #FFF;
     filter: none;
-    transition: filter 0.5s;
+    transition-duration: 0.5s;
 }
 
 .whatsBtn a:hover {
-    filter: brightness(110%);
+    filter: brightness(105%);
 }
 
 .linkBloco {
@@ -85,15 +88,19 @@ body {
     align-items: center;
     border-radius: 20px;
     background-color: #29A71A;
+    transition-duration: 0.5s;
 }
 
 .linkBloco img {
     height: 100%;
 }
 
+.linkBloco:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 .container {
     width: 100%;
-    height: 5100px;
     display: flex;
     flex-direction: column;
 
@@ -148,11 +155,20 @@ body {
     padding: 50px 50px;
 }
 
+.texto h1 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60px; 
+    font-family: "Inria Sans", sans-serif;
+    text-shadow: 0 4px 5px #00000025;
+}
+
 .texto p {
-    font-size:27px; 
+    font-size:22px; 
     font-weight: bold;
     text-align: justify;
     text-justify: auto;
+    font-family: "Kadwa", serif;
 }
 
 .publico_atendido {
@@ -202,18 +218,19 @@ body {
     font-family: "Junge", cursive;;
 }
 
+.publicos p {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: "Inria Serif", serif;
+}
+
 .presencial {
     width: 650px;
     background-color: #F3E7CF;
     padding: 10px;
     text-align: center;
     box-shadow: 0 5px 10px #00000050;
-}
-
-.publicos p {
-    text-align: center;
-    font-size: 27px;
-    font-weight: 500;
 }
 
 .online {
@@ -241,7 +258,7 @@ body {
 
 #perguntas_frequentes {
     width: 100%;
-    height: 200vh;
+    height: 100vh;
     padding-top: 12vh;
     display: flex;
     flex-direction: column;
@@ -250,11 +267,12 @@ body {
 
 .perguntas_frequentes_bloco {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    box-shadow: 0 0 20px #00000033;
     background-color: #FCFDE4;
 }
 
@@ -270,21 +288,71 @@ body {
     width: 1100px;
     height: 70px;
     font-size: 45px;
-    font-weight: bold;
+    font-family: "Jockey One", sans-serif;
     margin-top: 15px;
     border-radius: 15px;
     background-color: #D3C3A2;
     border-width: 1px;
 }
 
+.btn_pergunta:hover {
+    background-color: #eadbba;
+    cursor: pointer;
+}
+
 .resposta_pergunta {
     width: 1100px;
     display: none;
-    font-size: 20px;
-    padding: 15px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 20px;
     border: solid 1px #000;
     border-top: 0;
     border-radius: 0 0 15px 15px;
     background-color: #D3C3A2;
 }
 
+.contato {
+    width: 100%;
+    padding-top: 110px;
+    display: flex;
+    align-items: end;
+}
+
+#contato {
+    width: 100%;
+    height: 100vh;
+    padding-top: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato_bloco {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #D3C3A2;
+    box-shadow: 0 0 20px #00000033;
+}
+
+.contato_bloco h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Inria Serif", serif;
+    font-size: 60px;
+    text-shadow: 0 4px 5px #00000066;
+}
+
+.email_e_telefone {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 38px;
+    margin-top: 30px;
+
+}

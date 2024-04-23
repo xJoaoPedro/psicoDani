@@ -19,9 +19,8 @@ for (let i = 0; i < collapse.length; i++) {
         this.innerHTML = pergunta
 
         for (let i = 0; i < collapse.length; i++) {
-            if (collapse[i].id == this.id) {
+            if (collapse[i].id == this.id) {              
                 
-                console.log(collapse[i].style.borderRadius)
                 if (collapse[i].style.borderRadius == "15px 15px 0px 0px") {
                     collapse[i].style.borderRadius = "15px"
                     collapse[i].style.borderBottom = "solid 1px #000"
