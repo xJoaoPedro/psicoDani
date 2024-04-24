@@ -6,7 +6,7 @@
 
 body {
     background-image: url(/imagens/bg.png);
-    background-repeat:repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
     overflow: visible;
 }
@@ -96,7 +96,7 @@ body {
 }
 
 .linkBloco:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .container {
@@ -158,13 +158,13 @@ body {
 .texto h1 {
     font-weight: bold;
     font-style: italic;
-    font-size: 60px; 
+    font-size: 60px;
     font-family: "Inria Sans", sans-serif;
     text-shadow: 0 4px 5px #00000025;
 }
 
 .texto p {
-    font-size:22px; 
+    font-size: 22px;
     font-weight: bold;
     text-align: justify;
     text-justify: auto;
@@ -215,7 +215,8 @@ body {
 
 .publicos h2 {
     text-align: center;
-    font-family: "Junge", cursive;;
+    font-family: "Junge", cursive;
+    ;
 }
 
 .publicos p {
@@ -335,6 +336,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     padding: 20px;
     background-color: #D3C3A2;
     box-shadow: 0 0 20px #00000033;
@@ -353,6 +355,39 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 38px;
-    margin-top: 30px;
+    margin-top: 15px;
+}
 
+.redes_sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 2.6em;
+    font-family: "Inria Serif", serif;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0 4px 7px #00000066;
+    height: 130px;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.icones a {
+    transition-duration: 0.5s;
+}
+
+.icones a:hover {
+    filter: drop-shadow(0 0 10px #00000070);
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
 }
