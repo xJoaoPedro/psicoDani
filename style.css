@@ -507,6 +507,7 @@ body {
     }
 
     #sobre_mim {
+        height: 80vh;
         padding-top: 30px;
         align-items: start;
     }
@@ -548,5 +549,42 @@ body {
         padding: 10px;
         font-family: "Kadwa", serif;
         font-size: 2.7vw;
+    }
+
+    .publico_atendido {
+        padding-top: 0;
+    }
+
+    #publico_atendido {
+        padding-top: 30px;
+    }
+
+    .publico_atendido_bloco {
+        background-color: transparent;
+        box-shadow: none;
+        height: 580px;
+        padding: 10px;
+    }
+
+    .publico_atendido_bloco h1 {
+        font-size: 9vw;
+    }
+
+    .publicos {
+        order: 2;
+    }
+
+    .presencial p {
+        font-size: 3vw;
+    }
+
+    .online p {
+        font-size: 3vw;
+    }
+
+    .texto_atencao {
+        order: 1;
+        font-size: 3vw;
+        height: auto;
     }
 }
