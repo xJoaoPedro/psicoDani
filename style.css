@@ -327,6 +327,11 @@ body {
     background-color: #D3C3A2;
 }
 
+.destaque {
+    font-weight: bold; 
+    font-size: 30px;
+}
+
 .contato {
     width: 100%;
     padding-top: 110px;
@@ -412,6 +417,13 @@ body {
     font-size: 2em;
 }
 
+.endereco iframe {
+    border: 0; 
+    border-radius: 15px; 
+    width: 70vw; 
+    height: 200px;
+}
+
 @media screen and (max-width: 1375px) {
 
     .publico_atendido_bloco {
@@ -446,11 +458,17 @@ body {
 
     .btn_pergunta {
         width: 100%;
-        font-size: 3.9vw;
+        font-size: 4.2vw;
     }
 
     .resposta_pergunta {
         width: 100%;
+        font-size: 3vw;
+    }
+
+    .destaque {
+        font-weight: bold; 
+        font-size: 30px;
     }
 
     .email_e_telefone {
@@ -586,5 +604,72 @@ body {
         order: 1;
         font-size: 3vw;
         height: auto;
+    }
+
+    .perguntas_frequentes_bloco {
+        background-color: transparent;
+        box-shadow: none;
+    }
+    
+    .perguntas_frequentes_bloco h1 {
+        font-size: 11vw;
+    }
+
+    .btn_pergunta {
+        font-size: 5vw;
+        height: 50px;
+    }
+
+    .resposta_pergunta {
+        font-size: 3vw;
+        padding: 5px;
+    }
+
+    .destaque {
+        font-weight: bold; 
+        font-size: 4vw;
+    }
+
+    .contato {
+        padding-top: 0;
+    }
+
+    .contato_bloco {
+        background-color: transparent;
+        box-shadow: none;
+        padding: 5px;
+    }
+
+    .contato_bloco h1 {
+        font-size: 10vw;
+    }
+
+    .email_e_telefone {
+        font-size: 5vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .redes_sociais {
+        font-size: 9vw;
+    }
+
+    .icones {
+        height: 45px;
+    }
+
+    .icones a img {
+        height: 100%;
+    }
+
+    .endereco {
+        font-size: 5vw;
+    }
+
+    .endereco iframe {
+        border:0; 
+        border-radius: 15px; 
+        width: 90vw; 
+        height: 200px;
     }
 }
