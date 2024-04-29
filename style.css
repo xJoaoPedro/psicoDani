@@ -307,6 +307,7 @@ body {
     border-radius: 15px;
     background-color: #D3C3A2;
     border-width: 1px;
+    color: #000 !important;
 }
 
 .btn_pergunta:hover {
@@ -459,6 +460,7 @@ body {
     .btn_pergunta {
         width: 100%;
         font-size: 4.2vw;
+        color: #000 !important;
     }
 
     .resposta_pergunta {
@@ -618,6 +620,7 @@ body {
     .btn_pergunta {
         font-size: 5vw;
         height: 50px;
+        color: #000 !important;
     }
 
     .resposta_pergunta {
