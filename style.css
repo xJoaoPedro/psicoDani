@@ -511,6 +511,7 @@ body {
     .whatsBtn a{
         position: fixed;
         bottom: env(safe-area-inset-bottom);
+        margin-bottom: 10px;
         width: 90%;
     }
 
