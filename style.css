@@ -510,6 +510,7 @@ body {
 
     .whatsBtn a{
         position: fixed;
+        bottom: env(safe-area-inset-bottom);
         width: 90%;
     }
 
