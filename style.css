@@ -501,14 +501,15 @@ body {
     }
 
     .whatsBtn {
-        position: sticky;
+        position: static;
         display: flex;
         align-items: center;
         height: 7vh;
-        top: 93vh;
+        background-color: rgba(211, 195, 162, 0.6);
     }
 
     .whatsBtn a{
+        position: fixed;
         width: 90%;
     }
 
