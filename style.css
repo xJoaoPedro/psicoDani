@@ -611,6 +611,10 @@ body {
         height: auto;
     }
 
+    #perguntas_frequentes {
+        height: 80vh;
+    }
+
     .perguntas_frequentes_bloco {
         background-color: transparent;
         box-shadow: none;
@@ -638,6 +642,11 @@ body {
 
     .contato {
         padding-top: 0;
+    }
+
+    #contato {
+        padding-top: 0;
+        height: 80vh;
     }
 
     .contato_bloco {
