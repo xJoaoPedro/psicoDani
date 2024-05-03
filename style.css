@@ -612,12 +612,13 @@ body {
     }
 
     #perguntas_frequentes {
-        height: 80vh;
+        height: 800px;
     }
 
     .perguntas_frequentes_bloco {
         background-color: transparent;
         box-shadow: none;
+        height: auto;
     }
     
     .perguntas_frequentes_bloco h1 {
