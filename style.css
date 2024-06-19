@@ -591,16 +591,17 @@ body {
     }
 
     .texto_mobile_1 {
+        padding-top: 5px;
         display: block;
         font-family: "Kadwa", serif;
-        font-size: 3.2vw;
+        font-size: 3vw;
     }
 
     .texto_mobile_2 {
         display: block;
         padding: 10px;
         font-family: "Kadwa", serif;
-        font-size: 3.2vw;
+        font-size: 3vw;
     }
 
     .publico_atendido {
